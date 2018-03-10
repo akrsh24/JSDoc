@@ -86,3 +86,6 @@ console.log(person['home-address']);
 
 var propName="name";
 console.log(person[propName]);
+
+//---------------------------------------------------------------------------------------
+
