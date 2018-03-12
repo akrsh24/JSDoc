@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet"></link>
+</head>
+<body>
+    <h1>MY FIRST HTML PAGE</h1>
+    <form action="#">
+    Name:<input type="text" placeholder="Enter your name" autofocus required><br/>
+    Password:<input type="password" placeholder="Enter Password"><br/>
+    Gender:<input type="radio" name="gender" > Male &nbsp; 
+           <input type="radio" name="gender" > Female  <br/>
+    Contact-No:<input type="number" placeholder="contact-no"><br/>
+    Country:<select name="country" size=1>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="CANADA">CANADA</option>
+            </select><br/>
+    Favorite Subject:<input type="text" list="myList"/>
+    <datalist id="myList">
+        <option>Java</option>
+        <option>C++</option>
+        <option>JS</option>
+    </datalist>
+    Comment:<textarea name="comment" row=5 columns=35></textarea>
+    <br/>
+    <input type="submit" value="submit" onclick="alert('form submitted')"/>
+    </form>
+</body>
+</html>
